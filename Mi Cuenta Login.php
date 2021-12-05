@@ -24,7 +24,7 @@
      </nav>
 </div>
 
-<body background="imagenesInicio/Pan de Temporada Fondo.jpg">
+<body background="Pan de Temporada Fondo.jpg">
 <h2 style="text-align:center;">¡APROVECHA NUESTRAS PROMOCIONES Y DESCUENTOS!</h2>
 </header>
 
