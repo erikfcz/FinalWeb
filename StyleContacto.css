@@ -1,0 +1,242 @@
+/* LETRAS ENCABEZADO*/
+header{
+       margin: 0px auto;
+       padding: 50px 50;
+       	max-width: 1200px;
+       text-align: center;
+       font-size: 20px;
+       text-transform: prayer type;
+       font-weight: bold;
+       font-family: 'Bradley Hand ITC';
+       color: #FFFFFF;
+}
+
+h1{
+	text-align: center;
+		max-width: 1200px;
+}
+/*Estilos para el encabezado*/
+.header{
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	top: 0;left: 0;
+		max-width: 1200px;
+}
+.container{
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+/*LINEAS DE BARRA POCISION*/
+.container .btn-menu, .logo{
+	float:left;
+	line-height:100px;
+		max-width: 1200px;
+}
+/*LINEAS DE BARRA COLOR TAMAÑO*/
+.container .btn-menu label{
+	color: #FF4500;
+	font-size: 55px;
+	cursor: pointer;
+		max-width: 1200px;
+}
+/*LETRAS BARRA POSICION */
+.container .menu{
+	float: right;
+	line-height: 100px;   
+		max-width: 1200px;     
+}
+/*LETRAS DE BARRA COLOR TAMAÑO*/
+.container .menu a{
+		max-width: 1200px;
+	display: inline-block;
+	padding: 50px;
+	line-height: normal;
+	text-decoration: none;
+	color: #FFFFFF;
+	transition: all 0.9s ease;
+	border-bottom: 2px solid transparent;
+	font-size: 17px;
+	margin-right: 5px;
+}
+
+/*EFECTO BARRA*/
+.container .menu a:hover{
+		max-width: 1200px;
+	border-bottom: 2px solid #c7c7c7;
+	padding-bottom: 5px;
+}
+
+/* DISEÑO RECUADRO*/
+#general{
+		max-width: 1200px;
+    margin:auto;
+    width:960px;
+    height:570px;
+    background-Color: #F0E68C;
+    margin-top:10px;
+}
+
+/*  RECUADRO */
+.container{
+		max-width: 1200px;
+    width: 100%;
+    max-width: 1200px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+/*Menù lateral*/
+#btn-menu{
+		max-width: 1200px;
+	display: none;
+}
+.container-menu{
+		max-width: 1200px;
+	position: absolute;
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100vh;
+	top: 0;left: 0;
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+}
+#btn-menu:checked ~ .container-menu{
+		max-width: 1200px;
+	opacity: 1;
+	visibility: visible;
+}
+.cont-menu{
+	width: 100%;
+		max-width: 1200px;
+	max-width: 250px;
+	background: #1c1c1c;
+	height: 100vh;
+	position: relative;
+	transition: all 500ms ease;
+	transform: translateX(-100%);
+}
+#btn-menu:checked ~ .container-menu .cont-menu{
+	transform: translateX(0%);
+		max-width: 1200px;
+}
+.cont-menu nav{
+	transform: translateY(15%);
+		max-width: 1200px;
+}
+.cont-menu nav a{
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+		max-width: 1200px;
+	color: #c7c7c7;
+	border-left: 5px solid transparent;
+	transition: all 400ms ease;
+}
+.cont-menu nav a:hover{
+		max-width: 1200px;
+	border-left: 5px solid #c7c7c7;
+	background: #1f1f1f;
+}
+.cont-menu label{
+	position: absolute;
+		max-width: 1200px;
+	right: 5px;
+	top: 10px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+
+/* SOMBRA IMAGEN*/
+.capa{
+	position: fixed;
+		max-width: 1200px;
+	width: 100%;
+	height: 100vh;
+	background: rgba(0,0,0,0.3);
+	z-index: -1;
+	top: 0;left: 0;
+}
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    	max-width: 1200px;
+    font-family: "Bradley Hand ITC";
+}
+
+
+
+.container{
+		max-width: 1200px;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    width: 40%;
+    height: 80%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0,0,0,0.8) 0px 0px 50px;
+    border-radius: 10px;
+    	max-width: 1200px;
+}
+input, textarea{
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 15px 0px;
+    width: 80%;
+    margin: 20px;
+    transition: all 300ms;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    	max-width: 1200px;
+}
+
+input:focus, textarea:focus{
+    border-bottom-color: #610061 ;
+    	max-width: 1200px;
+}
+
+button{
+		max-width: 1200px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    width: 200px;
+    color: white;
+    border-radius: 2px;
+    box-shadow: rgba(0,0,0,0.7) 0px 0px 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    transition: all 300ms;
+    background-color: brown;
+}
+
+button:hover{
+		max-width: 1200px;
+    transform: scale(1.05);
+    box-shadow: rgba(0,0,0,0.9) 0px 0px 10px;
+}
+
+@media  screen and (max-width:700px) and (max-width:1024px) {
+    body{
+        	max-width: 1200px;
+    }
+}

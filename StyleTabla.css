@@ -1,0 +1,193 @@
+/* LETRAS ENCABEZADO*/
+header{
+       margin: 0px 0;
+       padding: 50px 50;
+       text-align: center;
+       font-size: 20px;
+       text-transform: prayer type;
+       font-weight: bold;
+       font-family: 'Bradley Hand ITC';
+       color: #FFFFFF;
+}
+
+/*  ENCABEZADO ¡TITLE!*/
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #000000 ;
+    margin-top: 0px;
+    font-weight: 900px;
+    font-family: 'Bradley Hand ITC', sans-serif;
+}
+
+
+/*Estilos para el encabezado*/
+.header{
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	top: 0;left: 0;
+}
+.container{
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+/*LINEAS DE BARRA POCISION*/
+.container .btn-menu, .logo{
+	float:left;
+	line-height:100px;
+}
+/*LINEAS DE BARRA COLOR TAMAÑO*/
+.container .btn-menu label{
+	color: #FF4500;
+	font-size: 55px;
+	cursor: pointer;
+}
+/*LETRAS BARRA POSICION */
+.container .menu{
+	float: right;
+	line-height: 100px;        
+}
+/*LETRAS DE BARRA COLOR TAMAÑO*/
+.container .menu a{
+	display: inline-block;
+	padding: 50px;
+	line-height: normal;
+	text-decoration: none;
+	color: #FFFFFF;
+	transition: all 0.9s ease;
+	border-bottom: 2px solid transparent;
+	font-size: 17px;
+	margin-right: 5px;
+}
+
+/*EFECTO BARRA*/
+.container .menu a:hover{
+	border-bottom: 2px solid #c7c7c7;
+	padding-bottom: 5px;
+}
+
+/* DISEÑO RECUADRO*/
+#general{
+    margin:auto;
+    width:960px;
+    height:500px;
+    background-Color: #F5DEB3;
+    margin-top:10px;
+}
+
+/*  RECUADRO */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+/*Menù lateral*/
+#btn-menu{
+	display: none;
+}
+.container-menu{
+	position: absolute;
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100vh;
+	top: 0;left: 0;
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+}
+#btn-menu:checked ~ .container-menu{
+	opacity: 1;
+	visibility: visible;
+}
+.cont-menu{
+	width: 100%;
+	max-width: 250px;
+	background: #1c1c1c;
+	height: 100vh;
+	position: relative;
+	transition: all 500ms ease;
+	transform: translateX(-100%);
+}
+#btn-menu:checked ~ .container-menu .cont-menu{
+	transform: translateX(0%);
+}
+.cont-menu nav{
+	transform: translateY(15%);
+}
+.cont-menu nav a{
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+	color: #c7c7c7;
+	border-left: 5px solid transparent;
+	transition: all 400ms ease;
+}
+.cont-menu nav a:hover{
+	border-left: 5px solid #c7c7c7;
+	background: #1f1f1f;
+}
+.cont-menu label{
+	position: absolute;
+	right: 5px;
+	top: 10px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+
+/* SOMBRA IMAGEN*/
+.capa{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: rgba(0,0,0,0.3);
+	z-index: -1;
+	top: 0;left: 0;
+}
+
+
+
+
+h1{
+    text-align: center;
+}
+
+table{
+    margin-top: 50px;
+    caption-side: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #D2691E;
+    color: white;
+}
+
+caption{
+    padding-top: 20px;
+    font-style: italic;
+}
+
+td,th{
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media  screen and (max-width:700px) and (max-width:1024px) {
+    body{
+        background-color: pink;
+    }
+}

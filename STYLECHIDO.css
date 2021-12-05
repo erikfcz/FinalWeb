@@ -1,0 +1,267 @@
+/* LETRAS ENCABEZADO*/
+header{
+       margin: 0px 0;
+       padding: 50px 50;
+       text-align: center;
+       font-size: 20px;
+       text-transform: uppercase;
+       font-weight: bold;
+       font-family: 'Bradley Hand ITC';
+       color: #FFFFFF;
+       
+}
+
+
+.todo{
+	margin: 0 auto;
+	width: 100%;
+	overflow: hidden;
+
+}
+/* DISEÑO PAGINA*/
+ *{
+      margin:0px;
+      padding:0px;
+ }
+
+/* SOMBRA IMAGEN*/
+.capa{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: rgba(0,0,0,0.6);
+	z-index: -1;
+	top: 0;left: 0;
+}
+
+/* DISEÑO RECUADRO*/
+#general{
+    margin:auto;
+    width:960px;
+    height:750px;
+    background-Color: #800000;
+    margin-top:10px;
+}
+
+/* IMAGEN ENCABEZADO RECUADRO*/
+#head{
+    width:960px;
+    height:220px;
+    background-image:url(imagenes/Cursos-de-panaderia.jpg);
+    margin-top:0px;
+}
+#menu{
+	margin:auto;
+	width:960px;
+	height:30px;
+	background-color: #999;        
+	font-family:Verdana, Geneva, sans-serif;	
+}
+#efecto{
+    width:960px;
+    height:90px;
+      background-image:url(imagenes/panaderia.jpg);
+    margin-top:0px;
+}
+#publicidad{
+    width:450px;
+    height:270px;
+    background-image:url(imagenes/giphy.gif);
+    margin-top:10px; 
+    margin-left:500px;
+}
+
+
+/* Style Menu*/
+
+/* MENU HORIZONTAL*/
+        body{
+            margin: 10;
+            font-family: Bradley Hand ITC;
+            font-size: 15px;
+        }
+/* 
+        .menu-wrapper ul{
+            padding: 0;
+            list-style: none;
+        }
+*/
+
+/* MENU HORIZONTAL LADO HOV*/
+        .principal-menu > li {
+            display: inline-block;
+        }
+
+/*TAMAÑO MENU HORIZONTAL RECUADRO*/
+        .principal-menu > li > a{
+            display: block;
+            padding: 10px 5px;
+            width: 90px;
+        }
+        li ul{
+            position: absolute;
+            display: none;
+        }
+
+/*TAMAÑO SUBMENU HORIZONTAL RECUADRO*/
+        .sub-menu a {
+            display: block;
+            padding: 10px 5px;
+            width: 130px;
+        }
+
+        li:hover ul{
+            display: block;
+        }
+/* COLOR MENU HORIZONTAL RECUADRO*/
+        .menu-wrapper, li ul{
+            background: #800000;
+        } 
+/* DISTRIBUCION MENU HORIZONTAL RECUADRO*/
+        .principal-menu {
+            width: 600px;
+            margin: 0 auto;
+        }
+ 
+/* COLOR LETRAS MENU HORIZONTALRECUADRO*/
+        .principal-menu a {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+/* COLOR SOMBRAS LETRAS MENU HORIZONTAL RECUADRO*/
+        .principal-menu li:hover{
+            background: #FF4500;
+            text-shadow: 0 0 2px #000;
+        }
+
+/* IMAGEN*/
+aside{
+   float: left;
+   width: 28%;
+   height: 300px;
+   background: #FFFFFF;
+}
+section{
+    float: left;
+    width: 70%;
+    heigt: 200px;
+    background: #FFFFFF;
+}
+
+aside div{
+   position: relative;
+   top: 100%;
+   transform: translateY(-50%);
+}
+
+.imagen:hover {filter: saturate(180%);} 
+
+/*Estilos para el encabezado*/
+	.header{
+		width: 100%;
+		height: 100px;
+		position: fixed;
+		top: 0;left: 0;
+	}
+	.container{
+		width: 90%;
+		max-width: 1200px;
+		margin: auto;
+		box-sizing: border-box;
+	}
+	.container .btn-menu, .logo{
+		float: left;
+		line-height:100px;
+	}
+	.container .btn-menu label{
+		color: #fff;
+		font-size: 45px;
+		cursor: pointer;
+	}
+	.logo h1{
+		color: #fff;
+		font-weight: 400;
+		font-size: 22px;
+		margin-left: 10px;
+	}
+	.container .menu{
+		float: right;
+		line-height: 100px;
+	}
+	.container .menu a{
+		display: inline-block;
+		padding: 15px;
+		line-height: normal;
+		text-decoration: none;
+		color: #fff;
+		transition: all 0.3s ease;
+		border-bottom: 2px solid transparent;
+		font-size: 15px;
+		margin-right: 5px;
+	}
+	.container .menu a:hover{
+		border-bottom: 2px solid #c7c7c7;
+		padding-bottom: 5px;
+	}
+/*Menù lateral*/
+	#btn-menu{
+		display: none;
+	}
+	.container-menu{
+		position: absolute;
+		background: rgba(0,0,0,0.5);
+		width: 100%;
+		height: 100vh;
+		top: 0;left: 0;
+		transition: all 500ms ease;
+		opacity: 0;
+		visibility: hidden;
+	}
+	#btn-menu:checked ~ .container-menu{
+		opacity: 1;
+		visibility: visible;
+	}
+	.cont-menu{
+		width: 100%;
+		max-width: 250px;
+		background: #1c1c1c;
+		height: 100vh;
+		position: relative;
+		transition: all 500ms ease;
+		transform: translateX(-100%);
+		text-transform: uppercase;
+	}
+	#btn-menu:checked ~ .container-menu .cont-menu{
+		transform: translateX(0%);
+	}
+	.cont-menu nav{
+		transform: translateY(15%);
+	}
+	.cont-menu nav a{
+		display: block;
+		text-decoration: none;
+		padding: 20px;
+		color: #c7c7c7;
+		border-left: 5px solid transparent;
+		transition: all 400ms ease;
+	}
+	.cont-menu nav a:hover{
+		border-left: 5px solid #c7c7c7;
+		background: #1f1f1f;
+	}
+	.cont-menu label{
+		position: absolute;
+		right: 5px;
+		top: 10px;
+		color: #fff;
+		cursor: pointer;
+		font-size: 18px;
+	}
+
+
+@media  screen and (max-width:700px) and (max-width:1024px) {
+    body{
+        background-color: pink;
+    }
+}
