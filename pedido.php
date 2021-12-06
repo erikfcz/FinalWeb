@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <title>Realizar pedido</title> 
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
-                <link rel="stylesheet" href="CSS/all.css" >
-     <link rel="stylesheet" href="CSS/StyleMiCuenta.css" type="text/css"
+                <link rel="stylesheet" href="all.css" >
+     <link rel="stylesheet" href="StyleMiCuenta.css" type="text/css"
 </head> 
  
 <body>
-
 <header>
  <class="header">
      <div class="container">
@@ -18,14 +17,14 @@
     </div>
 
   <nav class="menu">
-    <a href="MENUCHIDO.HTML">Inicio</a>
-    <a href="QS.HTML">Quienes somos</a>
-    <a href="Horarios.HTML">Horario</a>
-    <a href="Contacto.HTML">Contactanos</a>
+    <a href="index.html">Inicio</a>
+    <a href="QS.html">¿Quiénes somos?</a>
+    <a href="Horarios.html">Horario</a>
+    <a href="Contacto.html">Contactanos</a>
      </nav>
 </div>
 
-<body background="imagenesInicio/Pan de Temporada Fondo.jpg">
+<body background="Pan de Temporada Fondo.jpg">
 <h2 style="text-align:center;">¡APROVECHA NUESTRAS PROMOCIONES Y DESCUENTOS!</h2>
 </header>
 
@@ -34,8 +33,8 @@
 <div class="container-menu">
      <div class="cont-menu">
         <nav>
-            <a href="Mi Cuenta Login.HTML">Mi cuenta</a>
-            <a href="MENUCHIDO.HTML">Inicio</a>
+            <a href="Mi Cuenta Login.html">Mi cuenta</a>
+            <a href="index.html">Inicio</a>
             <a href="https://www.google.com/maps/place/Manhattan/@3.0393877,-120.4945631,3z/data=!4m9!1m2!2m1!1spanaderia+manhattan!3m5!1s0x85cfd9416c7d7b81:0xe2afd5d6f8eeed6a!8m2!3d19.3064056!4d-98.2394482!15sChNwYW5hZGVyaWEgbWFuaGF0dGFuWhUiE3BhbmFkZXJpYSBtYW5oYXR0YW6SAQVzdG9yZQ">Sucursales</a>
             <a href="https://www.facebook.com/pages/category/Bakery/Manhattan-Panader%C3%ADa-159615300719787/">Facebook</a>
             <a href="https://www.instagram.com/manhattanpanaderia/?hl=es">Instagram</a>
@@ -45,12 +44,10 @@
        </div>
 </div>
 
-
 <div id="general">
     <div id="head">
     </div>
-<h1 class="title">¡QUEREMOS CONOCERTE! </h1>
-    
+<h1 class="title">¡QUEREMOS CONOCERTE! </h1>    
 
  <form class="formulario" method="post">
     
@@ -65,8 +62,7 @@
              <option type="text" name="tipo_pastel" class="opciones">(PBa) Pasteles para Bautizos</option>
              <option type="text" name="tipo_pastel" class="opciones">(PBo) Pasteles para Bodas</option>
          </select>
-         </div>
-        
+         </div>    
 
         <div class="input-contenedor">
          <i class="fas fa-user icon"></i>
@@ -141,7 +137,6 @@
          </select>
          </div>
          
-
          <div class="input-contenedor">
          <i class="fas fa-user icon"></i>
          <select type="text" name="ano" >
@@ -186,7 +181,6 @@
          </select>
          </div>
 
-
            <div class="input-contenedor">
          <i class="fas fa-user icon"></i>
          <select type="text" name="pago" >
@@ -197,11 +191,10 @@
          </select>
          </div>
 
-
 <label>Datos para la entrega</label>
 <div class="input-contenedor">
         <i class="fas fa-key icon"></i>
-         <input type="text" name="persona" placeholder="Nombre de quién recibe el pedido">
+         <input type="text" name="persona" placeholder="Nombre de quien recibe el pedido">
          </div>
 
         <div class="input-contenedor">
@@ -209,7 +202,7 @@
          <select type="text" name="estado" >
              <option type="text" name="estado" class="opciones">Estado</option>
              <option type="text" name="estado" class="opciones">Ciudad de México</option>
-             <option type="text" name="estado" class="opciones">Estado de Mexico</option>
+             <option type="text" name="estado" class="opciones">Estado de México</option>
          </select>
          </div>
          <div class="input-contenedor">
@@ -237,11 +230,9 @@
          <input type="text" name="municipio" placeholder="Ingrese el Nombre del municipio o Alcaldía">
          </div>
 
-
          <input type="submit" value="Registrar Pedido" name="RegistrarP" class="button">
          <p>Al registrar el pedido, acepta que todos los datos ingresados son correctos. NO hay modificaciones ni devoluciones. </p>
          <p>Si desea cancelar el pedido vaya al apartado de cancelaciones. 
-
         
      </div>
  <?php
