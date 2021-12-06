@@ -16,7 +16,7 @@ body{
 .title{
     text-align: center;
     font-size: 40px;
-    color: black;
+    color:#FFC300 ;
     margin-top: 0px;
     font-weight: 900px;
     font-family: 'Bradley Hand ITC', sans-serif;
@@ -75,7 +75,7 @@ header{
        text-transform: prayer type;
        font-weight: bold;
        font-family: 'Bradley Hand ITC';
-       color: #FFFFFF;
+       color: black;
 }
 
 /*Estilos para el encabezado*/
