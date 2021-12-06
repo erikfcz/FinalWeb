@@ -1,6 +1,5 @@
 <?php 
 
-
 $conex = mysqli_connect("localhost","root","","registros"); 
 //if ($conex = false){
 //    echo "Sin conexion a la base";
@@ -61,7 +60,7 @@ if (isset($_POST['RegistrarP']))
             
             ?> 
                     <script>
-                        alert('¡Error al ingresar la informacion!');
+                        alert('¡Error al ingresar la información!');
                     </script>
             <?php
         }
