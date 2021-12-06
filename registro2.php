@@ -1,6 +1,5 @@
 <?php 
 
-
 $conex = mysqli_connect("localhost","root","","registros"); 
 //if ($conex = false){
 //    echo "Sin conexion a la base";
@@ -38,7 +37,7 @@ $consulta="INSERT INTO datos VALUES ('$name','$correo','$pass','$pass2')";
             
             ?> 
                     <script>
-                        alert('¡Error al ingresar la informacion!');
+                        alert('¡Error al ingresar la información!');
                     </script>
             <?php
             
@@ -55,4 +54,3 @@ $consulta="INSERT INTO datos VALUES ('$name','$correo','$pass','$pass2')";
 }
 
 ?>
-
