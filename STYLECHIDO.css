@@ -11,7 +11,6 @@ header{
        
 }
 
-
 .todo{
 	margin: 0 auto;
 	width: 100%;
@@ -47,7 +46,7 @@ header{
 #head{
     width:960px;
     height:220px;
-    background-image:url(imagenes/Cursos-de-panaderia.jpg);
+    background-image:url(Cursos-de-panaderia.jpg);
     margin-top:0px;
 }
 #menu{
@@ -60,13 +59,13 @@ header{
 #efecto{
     width:960px;
     height:90px;
-      background-image:url(imagenes/panaderia.jpg);
+      background-image:url(panaderia.jpg);
     margin-top:0px;
 }
 #publicidad{
     width:450px;
     height:270px;
-    background-image:url(imagenes/giphy.gif);
+    background-image:url(giphy.gif);
     margin-top:10px; 
     margin-left:500px;
 }
@@ -258,7 +257,9 @@ aside div{
 		cursor: pointer;
 		font-size: 18px;
 	}
-
+.footer{
+text-align:center;
+}
 
 @media  screen and (max-width:700px) and (max-width:1024px) {
     body{
